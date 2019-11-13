@@ -1,0 +1,6 @@
+.title{
+    color:red;
+}
+:global(.test){
+    font-style: italic;
+}

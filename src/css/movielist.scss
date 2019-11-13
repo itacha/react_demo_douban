@@ -1,0 +1,29 @@
+.movielist {
+  display: flex;
+  flex-wrap: wrap;
+  img {
+    height: 280px;
+  }
+  .movieItem {
+    margin: 10px;
+    text-align: center;
+    &:hover {
+      box-shadow: 0 0 10px #999;
+      transform: scale(1.03);
+    }
+  }
+}
+.more {
+    display: block;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    font-size: 14px;
+    background: #f7f7f7;
+    margin:10px;
+    margin-right: 60px;
+    &:visited {
+      color: #666699;
+      text-decoration: none;
+    }
+  }
